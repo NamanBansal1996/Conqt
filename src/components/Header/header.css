@@ -1,0 +1,51 @@
+*{
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Navigation-Bar{
+    max-width: 1440px;
+    height: 54px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(48, 79, 254, 1);
+}
+.Logo{
+    width: 115px;
+height: 36.75px;
+/* padding: 4px 0px 4px 0px; */
+margin-left: 24px;;
+border-radius: 3px;
+background: rgba(255, 255, 255, 1);
+}
+.Logo img{
+    width: 100px;
+    height: 28.75px;
+}
+.SearchBar{
+    width: 450px;
+    height: 33px;
+    
+}
+.SearchBar input{
+    width: 450px;
+    height: 33px;
+    border-radius: 6px;
+    background: blue;
+    border: 0.75px solid rgba(208, 213, 221, 1);
+    padding: 7.5px, 10.5px, 7.5px, 10.5px;
+
+}
+.Content{
+width: 72px;
+height: 30px;
+display: flex;
+gap: 12px;
+}
+.Content .Cart{
+    width: 30px;
+    height: 30px;
+
+}
